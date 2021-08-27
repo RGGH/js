@@ -1,1 +1,78 @@
+<!doctype html>
+<html lang="en">
 
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <title>Chart JS example</title>
+</head>
+
+<body class="bg-success">
+  <div class="col-md-6 offset-md-3 my-5">
+    <div class="card">
+      <div class="card-body">
+        <h1>Chart JS example - using Jinja2 & Python</h1>
+      <hr>  
+      </div>
+      <div class="card-body">
+        <canvas id="myChart"></canvas>
+      </div>
+
+    </div>
+      
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+
+          //const myVar = {{ Jan  }};
+
+          const labels = [
+            'January',
+            'February',
+            'March',
+            'April',
+            'May',
+            'June',
+          ];
+          const data = {
+            labels: labels,
+            datasets: [{
+              label: 'My First dataset',
+              backgroundColor: 'rgb(255, 99, 132)',
+              borderColor: 'rgb(255, 99, 132)',
+              data: {{ cTemps  }},
+            }]
+          };
+
+          const config = {
+            type: 'line',
+            data: data,
+            options: {}
+          };
+
+          // === include 'setup' then 'config' above ===
+
+          var myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+          );
+
+        </script>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+          crossorigin="anonymous"></script>
+
+  
+
+</body>
+
+</html>
