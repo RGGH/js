@@ -1,0 +1,80 @@
+
+body{
+    background-image: linear-gradient(120deg,#af984c,#4dee);
+    color: white;
+    justify-content: center;
+}
+
+.age1{
+    color: rgb(255, 253, 253);
+    background: rgb(70, 70, 70);
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    width: 320px;
+}
+
+.enam{
+ 
+    text-indent: 10px;
+}
+
+
+
+.todoInput{
+    color: rgb(59, 0, 253);
+    background: rgb(176, 197, 155);
+    text-indent: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+   display: flex;
+ 
+
+}
+
+
+
+#resultAge{
+    color: rgb(213, 236, 4);
+    text-indent: 10px;
+}
+
+.sample{
+    color: rgb(52, 53, 49);
+  
+}
+  
+  form button{
+    background: #625bca; /* Green */
+    border: none;
+    color: rgb(250, 248, 248);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+  }
+
+  form button:hover{
+    background: #b4b4b6; /* Green */
+    border: none;
+    color: rgb(226, 53, 53);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+  }
+
+  .inage { 
+    padding: 9px; 
+    border: solid 1px #b3cbff; 
+    outline: 0; 
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #bebbe4), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #ebebf3 1px, #FFFFFF 25px); 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+
+    } 
