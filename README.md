@@ -1,2 +1,6 @@
-# js
-## see : https://www.taniarascia.com/how-to-use-the-javascript-fetch-api-to-get-json-data/
+# JavaScript - focus on API
+
+### async / await
+
+Quotes Project here : https://redandgreen.co.uk/quotes/quote.html
+
